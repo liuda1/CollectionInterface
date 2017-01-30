@@ -24,6 +24,8 @@ public static void main(String[] args) {
 	deque.addLast(345);
 	deque.addFirst(123);
 	deque.push(23);
+	deque.peekFirst();
+	deque.peekLast();
 	System.out.println(deque);
 	deque.pop();
 	System.out.println(deque);
